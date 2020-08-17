@@ -36,8 +36,8 @@
                                 <span class="element">Sekilas</span>
                                 <h2>Tentang Desa Tempursari</h2>
                             </div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vehicula, odio quis varius vulputate, felis diam viverra nibh, id vestibulum metus nibh et elit. Mauris massa magna, commodo non consequat vitae, auctor a nisi. Proin pellentesque lectus quis enim dignissim accumsan. Integer lobortis lacus lectus, et posuere odio porta id. Mauris mattis risus elementum, ultrices nibh eget, fringilla metus. Sed ac congue dui. Donec ultrices, orci id aliquet fermentum, dui turpis aliquet libero, nec dapibus nisi leo vitae dui. Phasellus dictum pretium erat. Fusce vestibulum quam odio, at euismod purus hendrerit ut. Curabitur congue nulla arcu, ut rhoncus nunc dignissim quis. Nam ultrices suscipit lorem. Proin viverra facilisis felis in posuere.</p>
-                        </div>
+                                <p>{{ $main_info->tentang }}</p>
+                            </div>
                         <div class="row">
                             <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
                                 <div class="experience">

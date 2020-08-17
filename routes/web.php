@@ -13,6 +13,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+//route ke admin
+
+Route::get('/goadm1n', function () {
+    return view('other/admin_template1');
+});
+
+Route::get('/goadm1n/home', 'admin_controller\main_controller@home');
+Route::any('/ajax/updata/home', 'admin_controller\update_controller@home');
+
+
 //route ke blog
 Route::get('/', 'blog_controller\main_controller@home');
 
